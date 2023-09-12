@@ -28,3 +28,14 @@ export class XnftWallet implements Wallet {
     return this.#xnftInjection.signAllTransactions(txs);
   }
 }
+
+
+export type BackendComment = { 
+  id: string,
+  body: string | any,
+  username: string,
+  userId: string | null,
+  parentId: string,
+  createdAt: string,
+  
+}
