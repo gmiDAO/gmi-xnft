@@ -12,6 +12,8 @@ import { TokenListNavigator } from "./screens/TokenNavigator";
 
 import { MaterialIcons } from '@expo/vector-icons';
 
+import "../src/comments.css";
+
 const Tab = createBottomTabNavigator();
 
 function TabNavigator() {
