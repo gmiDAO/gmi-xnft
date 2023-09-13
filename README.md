@@ -1,3 +1,9 @@
+# GMI XNFT
+
+This repo was created as placeholder for the XNFT FE of the GMO product that will be presented as MVP for the Solana hackathon Hyperdrive.
+
+At follows you will find the DOCS from XNFT boilerplace
+
 # xnft-quickstart
 
 Quickstart repo for building your own xNFT.
