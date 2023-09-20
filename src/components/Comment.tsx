@@ -56,6 +56,9 @@ const Comment = ({
   const canDelete =
     currentUserId === comment.userId && replies.length === 0 && !timePassed;
   const canReply = Boolean(currentUserId);
+
+  const canCommit = Boolean(currentUserId === comment.userId && parentId===null);
+
   const canEdit = currentUserId === comment.userId && !timePassed;
   const replyId = parentId ? parentId : comment.id;
   const createdAt = new Date(comment.createdAt).toLocaleDateString();
@@ -92,6 +95,13 @@ const Comment = ({
               Reply
             </div>
           )}
+          {
+            canCommit && (
+                <div className="comment-action" onClick={() =>
+                  setActiveComment({ id: comment.id, type: "editing" })
+                }>COMMIT</div>
+            )
+          }
           {canEdit && (
             <div
               className="comment-action"
