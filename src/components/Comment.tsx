@@ -1,6 +1,8 @@
 import React from 'react';
 import CommentForm from "../components/CommentForm";
 
+import user_logo from '../../public/user-icon.png';
+
 type Comment = {
   id: string,
   userId: string,
@@ -60,7 +62,7 @@ const Comment = ({
   return (
     <div key={comment.id} className="comment">
       <div className="comment-image-container">
-        <img src="/user-icon.png" />
+        <img src={user_logo} /> 
       </div>
       <div className="comment-right-part">
         <div className="comment-content">
