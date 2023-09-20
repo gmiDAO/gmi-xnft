@@ -12,7 +12,7 @@ type Props = {
 const CommentForm = ({
   handleSubmit,
   submitLabel,
-  hasCancelButton = false,
+  hasCancelButton = true,
   handleCancel,
   initialText = "",
 }:Props) => {

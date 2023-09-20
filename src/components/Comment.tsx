@@ -57,6 +57,9 @@ const Comment = ({
     currentUserId === comment.userId && replies.length === 0 && !timePassed;
   const canReply = Boolean(currentUserId);
 
+  console.log(comment)
+  console.log("currentUserId "+currentUserId)
+  console.log("comment.userId "+comment.userId)
   const canCommit = Boolean(currentUserId === comment.userId && parentId===null);
 
   const canEdit = currentUserId === comment.userId && !timePassed;
