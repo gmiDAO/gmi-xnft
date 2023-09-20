@@ -17,12 +17,14 @@ type Props = {
   };
 
 const Comments = ({ commentsUrl, currentUserId }:Props) => {
+
   const [backendComments, setBackendComments] = useState<any[]>([]);
   const [activeComment, setActiveComment] = useState(null);
   const rootComments = backendComments.filter(
 
     (backendComment) => backendComment.parentId === null
   );
+
   const getReplies = (commentId:any) =>
     backendComments
       .filter((backendComment) => backendComment.parentId === commentId)
@@ -30,6 +32,7 @@ const Comments = ({ commentsUrl, currentUserId }:Props) => {
         (a, b) =>
           new Date(a.createdAt).getTime() - new Date(b.createdAt).getTime()
       );
+      
   const addComment = (text:any, parentId:any) => {
     createCommentApi(text, parentId).then((comment) => {
       setBackendComments([comment, ...backendComments]); 
