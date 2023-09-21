@@ -11,8 +11,8 @@ import { useEffect, useState } from "react";
 import Comments from "../../src/components/Comments";
 
 
-
-
+// TODO: Set currentUserId with wallet
+// TODO: get comment url from backend service
 
 const Proposed = () => (
   <View style={{ flex: 1, backgroundColor: '#ff4081' }}>
@@ -80,11 +80,11 @@ export function EventsScreen() {
        
 
         <TabView
-      navigationState={{ index, routes }}
-      renderScene={renderScene}
-      onIndexChange={setIndex}
-      initialLayout={{ width: layout.width }}
-    />
+            navigationState={{ index, routes }}
+            renderScene={renderScene}
+            onIndexChange={setIndex}
+            initialLayout={{ width: layout.width }}
+         />
 
                
        
