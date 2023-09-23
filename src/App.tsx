@@ -7,8 +7,12 @@ import { MaterialCommunityIcons } from "@expo/vector-icons";
 import { useFonts, Inter_900Black } from "@expo-google-fonts/dev";
 
 import { ExamplesScreens } from "./screens/ExamplesScreen";
-import { HomeScreen } from "./screens/HomeScreen";
+import { EventsScreen } from "./screens/EventsScreen";
 import { TokenListNavigator } from "./screens/TokenNavigator";
+
+import { MaterialIcons } from '@expo/vector-icons';
+
+import "../src/comments.css";
 
 const Tab = createBottomTabNavigator();
 
@@ -21,33 +25,33 @@ function TabNavigator() {
       }}
     >
       <Tab.Screen
-        name="Home"
-        component={HomeScreen}
+        name="Events"
+        component={EventsScreen}
         options={{
-          tabBarLabel: "Home",
+          tabBarLabel: "Events",
           tabBarIcon: ({ color, size }) => (
-            <MaterialCommunityIcons name="account" color={color} size={size} />
+            <MaterialIcons name="event" size={24} color="black" />
           ),
         }}
       />
       <Tab.Screen
-        name="List"
+        name="Leaderboard"
         component={TokenListNavigator}
         options={{
           headerShown: false,
-          tabBarLabel: "Tokens",
+          tabBarLabel: "Leaderboard",
           tabBarIcon: ({ color, size }) => (
-            <MaterialCommunityIcons name="bank" color={color} size={size} />
+            <MaterialIcons name="leaderboard" size={24} color="black" />
           ),
         }}
       />
       <Tab.Screen
-        name="Examples"
+        name="Profile"
         component={ExamplesScreens}
         options={{
-          tabBarLabel: "Examples",
+          tabBarLabel: "Profile",
           tabBarIcon: ({ color, size }) => (
-            <MaterialCommunityIcons name="home" color={color} size={size} />
+            <MaterialCommunityIcons name="face-man-profile" color={color} size={size} />
           ),
         }}
       />
