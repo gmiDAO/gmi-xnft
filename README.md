@@ -13,7 +13,7 @@ nvm can help in this
 
 ### Known Runtime Errors
 
-## Error registering root component
+* Error registering root component
 
 > In the following error appears on running the dev server using `yarn dev`:
 > 
