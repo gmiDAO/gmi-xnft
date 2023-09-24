@@ -1,3 +1,5 @@
+import React from 'react'
+
 import { registerRootComponent } from "expo";
 import { RecoilRoot } from "recoil";
 import { ActivityIndicator, View } from "react-native";
