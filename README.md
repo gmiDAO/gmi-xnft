@@ -11,7 +11,9 @@ WARNING! Use node version 16.20.2
 
 nvm can help in this 
 
-### Runtime Erros
+### Known Runtime Errors
+
+## Error registering root component
 
 > In the following error appears on running the dev server using `yarn dev`:
 > 
