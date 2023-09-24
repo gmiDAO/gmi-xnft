@@ -1,9 +1,31 @@
 # GMI XNFT
 
+This repository was created as a placeholder for the xNFT Dapp for GMI team presented at the Solana hackathon Hyperdrive.
+
+
+## Development Notes
+
+### Node Version
+
 WARNING! Use node version 16.20.2
 
+nvm can help in this 
 
-This repo was created as placeholder for the xNFT Front-end of the GMI MVP that will be preseted to the Solana hackathon Hyperdrive.
+If the following problem appears doing `yarn dev` 
+
+### Runtime Erros
+
+ERROR in ./node_modules/expo/AppEntry.js:3
+Module not found: Can't resolve '../../App'
+  1 | import registerRootComponent from 'expo/build/launch/registerRootComponent';
+  2 |
+> 3 | import App from '../../App';
+  4 |
+  5 | registerRootComponent(App);
+  6 |
+
+Clean hidden folders `.expo` and the `node_modules` folder, reinstalling dependencies with `yarn install`
+
 
 At follows you will find the DOCS from XNFT boilerplace
 
