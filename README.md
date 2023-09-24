@@ -19,7 +19,7 @@ nvm can help in this
 > Module not found: Can't resolve '../../App'
 >   1 | import registerRootComponent from 'expo/build/launch/registerRootComponent';
 >   2 |
-> > 3 | import App from '../../App';
+>  3 | import App from '../../App';
 >  4 |
 >  5 | registerRootComponent(App);
 >  6 |
