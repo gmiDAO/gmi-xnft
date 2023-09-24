@@ -11,9 +11,9 @@ WARNING! Use node version 16.20.2
 
 nvm can help in this 
 
-If the following problem appears doing `yarn dev` 
-
 ### Runtime Erros
+
+In the following error appears on running the dev server using `yarn dev`:
 
 ERROR in ./node_modules/expo/AppEntry.js:3
 Module not found: Can't resolve '../../App'
@@ -24,7 +24,7 @@ Module not found: Can't resolve '../../App'
   5 | registerRootComponent(App);
   6 |
 
-Clean hidden folders `.expo` and the `node_modules` folder, reinstalling dependencies with `yarn install`
+Please, clean the hidden folders `.expo` and the `node_modules` folder, reinstalling dependencies with `yarn install`
 
 
 At follows you will find the DOCS from XNFT boilerplace
