@@ -9,7 +9,7 @@ This repository was created as a placeholder for the xNFT Dapp created by the GM
 
 WARNING! Use node version 16.20.2
 
-nvm can help in this 
+`nvm` tool can help to set the right node version in your environment
 
 ### Known Runtime Errors
 
