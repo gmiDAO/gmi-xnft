@@ -1,3 +1,6 @@
+import * as buffer from "buffer";
+window.Buffer = buffer.Buffer;
+
 import { Button, Text } from "react-native";
 
 import { useReducer } from "react";
@@ -59,12 +62,14 @@ export function SignMessageButton() {
 
           window.xnft.solana
             .signMessage(
-              Buffer.from(`The time is: ${new Date().toLocaleTimeString()}`)
+              window.Buffer.from(`The time is: ${new Date().toLocaleTimeString()}`)
             )
             .then((signature: Uint8Array) => {
+
+              const signatureB64 = window.Buffer.from(signature).toString("base64")
               dispatch({
                 type: Status.SIGNED,
-                signature: Buffer.from(signature).toString("base64"),
+                signature: signatureB64,
               });
             })
             .catch(() => {
