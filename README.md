@@ -2,7 +2,6 @@
 
 This repository was created as a placeholder for the xNFT Dapp created by the GMI team and presented at the Solana hackathon Hyperdrive in 2023.
 
-
 ## Development Notes
 
 ### Node Version
