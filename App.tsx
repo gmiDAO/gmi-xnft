@@ -36,28 +36,28 @@ const Content: React.FC = () => {
         <Search className="search-instance" />
       </View>
       <View className="Viewn-4">
-        <Viewn onClick={handleButtonClick} className="buttons">
+        <View onClick={handleButtonClick} className="buttons">
           <Button property1="primary" text="Propose event" />
-          <Viewn className="tabs">
-            <Viewn className="tabs-2">
+          <View className="tabs">
+            <View className="tabs-2">
               <Tab className="design-component-instance-node" property1="active" />
               <Tab className="design-component-instance-node" property1="inactive" />
               <Tab className="design-component-instance-node" property1="inactive" text="Fortnite" />
               <Tab className="design-component-instance-node" property1="inactive" text="Clash Royale" />
-            </Viewn>
-            <Viewn className="tabs-2">
+            </View>
+            <View className="tabs-2">
               <Tab className="design-component-instance-node" property1="active" text1="Proposed" />
               <Tab className="design-component-instance-node" property1="inactive" text="Upcoming" />
               <Tab className="design-component-instance-node" property1="inactive" text="Past" />
-            </Viewn>
-          </Viewn>
-        </Viewn>
-        <Viewn className="events">
+            </View>
+          </View>
+        </View>
+        <View className="events">
           <Event className="design-component-instance-node" device="desktop" type="proposed" />
           <Event className="design-component-instance-node" device="desktop" type="proposed" />
-        </Viewn>
-      </Viewn>
-    </Viewn>
+        </View>
+      </View>
+    </View>
   );
 };
 
