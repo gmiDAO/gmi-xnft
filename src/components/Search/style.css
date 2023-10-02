@@ -1,0 +1,33 @@
+.search {
+  align-items: flex-start;
+  background-color: var(--default-80);
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 16px;
+  position: relative;
+  width: 336px;
+}
+
+.search .name-token-ID {
+  background: transparent;
+  border: none;
+  color: var(--default-60);
+  font-family: var(--14-medium-font-family);
+  font-size: var(--14-medium-font-size);
+  font-style: var(--14-medium-font-style);
+  font-weight: var(--14-medium-font-weight);
+  height: 20px;
+  letter-spacing: var(--14-medium-letter-spacing);
+  line-height: var(--14-medium-line-height);
+  margin-top: -1px;
+  padding: 0;
+  position: relative;
+  width: 109px;
+}
+
+.search .icon-18 {
+  height: 20px !important;
+  position: relative !important;
+  width: 20px !important;
+}

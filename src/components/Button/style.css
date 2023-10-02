@@ -1,0 +1,94 @@
+.button {
+  display: inline-flex;
+  position: relative;
+}
+
+.button .place-support {
+  font-family: var(--14-semibold-font-family);
+  font-size: var(--14-semibold-font-size);
+  font-style: var(--14-semibold-font-style);
+  font-weight: var(--14-semibold-font-weight);
+  letter-spacing: var(--14-semibold-letter-spacing);
+  line-height: var(--14-semibold-line-height);
+  position: relative;
+  width: fit-content;
+}
+
+.button .text-wrapper {
+  color: white;
+  font-family: var(--14-semibold-font-family);
+  font-size: var(--14-semibold-font-size);
+  font-style: var(--14-semibold-font-style);
+  font-weight: var(--14-semibold-font-weight);
+  letter-spacing: var(--14-semibold-letter-spacing);
+  line-height: var(--14-semibold-line-height);
+  position: relative;
+  width: fit-content;
+}
+
+.button .icon-33 {
+  height: 16px !important;
+  position: relative !important;
+  width: 16px !important;
+}
+
+.button .icon-19 {
+  height: 20px !important;
+  position: relative !important;
+  width: 20px !important;
+}
+
+.button.button-icon {
+  align-items: flex-start;
+  background-color: var(--default-80);
+  border-radius: 12px;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 20px;
+}
+
+.button.secondary {
+  align-items: center;
+  border: 1px solid;
+  border-color: var(--yellow-40);
+  border-radius: 8px;
+  gap: 4px;
+  height: 34px;
+  justify-content: center;
+  padding: 6px 14px;
+}
+
+.button.primary {
+  align-items: center;
+  background-color: #E1FF44;
+  border-radius: 8px;
+  gap: 4px;
+  height: 32px;
+  justify-content: center;
+  padding: 6px 14px;
+}
+
+.button.tertiary {
+  align-items: center;
+  background-color: var(--default-70);
+  border-radius: 8px;
+  gap: 4px;
+  height: 32px;
+  padding: 6px 14px;
+}
+
+.button.button-icon .place-support {
+  color: var(--default-100);
+}
+
+.button.secondary .place-support {
+  color: var(--yellow);
+}
+
+.button.primary .place-support {
+  color: var(--default-100);
+}
+
+.button.tertiary .place-support {
+  color: var(--default-100);
+}
