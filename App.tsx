@@ -1,4 +1,5 @@
-import React from "react";
+import { View, StyleSheet, StyleProp, ViewStyle } from "react-native";
+
 import { Button } from "./src/components/Button";
 import { Event } from "./src/components/Event";
 import { Search } from "./src/components/Search";
