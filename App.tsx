@@ -7,10 +7,6 @@ import { Tab } from "./src/components/Tab";
 import { Logo } from "./src/icons/Logo";
 import { Property1Notification } from "./src/icons/Property1Notification";
 import "./style.css";
-import { View } from "react-xnft";
-
-
-
 
 const Content: React.FC = () => {
   console.log("start content");
