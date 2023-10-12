@@ -1,0 +1,154 @@
+.content {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+}
+
+.content .nav {
+  align-items: center;
+  background-color:#111827;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: #2d3444;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 832px;
+  padding: 12px 40px;
+  position: relative;
+}
+
+.content .logo-instance {
+  height: 35px !important;
+  position: relative !important;
+  width: 217px !important;
+}
+
+.content .menu {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 48px;
+  position: relative;
+}
+
+.content .navlinks {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 32px;
+  position: relative;
+}
+
+.content .navlink {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+}
+
+.content .text-wrapper-14 {
+  color: white;
+  font-family: "16-semibold-font-family"; 
+  font-size: 16px; 
+  font-style: normal; 
+  font-weight: 400; 
+  letter-spacing: 0.1em;
+  line-height: 1.5; 
+  text-align: center;
+  white-space: nowrap;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: -1px;
+  position: relative;
+}
+
+.content .line-2 {
+  align-self: stretch;
+  height: 1px;
+  object-fit: cover;
+  position: relative;
+  width: 100%;
+}
+
+.content .icons {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 16px;
+  position: relative;
+}
+
+.content .icon-17 {
+  height: 32px !important;
+  position: relative !important;
+  width: 32px !important;
+}
+
+.content .pfp-2 {
+  height: 40px;
+  object-fit: cover;
+  position: relative;
+  width: 40px;
+}
+
+.content .search-instance {
+  left: 552px !important;
+  position: absolute !important;
+  top: 12px !important;
+}
+
+.content .div-4 {
+  align-items: flex-end;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 32px;
+  position: relative;
+}
+
+.content .buttons {
+  align-items: flex-end;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+  width: 100%;
+}
+
+.content .tabs {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+  width: 100%;
+}
+
+.content .tabs-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  position: relative;
+}
+
+.content .design-component-instance-node {
+  flex: 0 0 auto !important;
+}
+
+.content .events {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+}

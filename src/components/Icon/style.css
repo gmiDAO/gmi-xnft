@@ -1,0 +1,457 @@
+.icon .instance-node {
+  height: 20px !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 20px !important;
+}
+
+.icon .instance-node-2 {
+  height: 32px !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 32px !important;
+}
+
+.icon {
+  position: relative;
+}
+
+.icon .icon-color {
+  position: absolute;
+}
+
+.icon .class {
+  height: 16px !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 16px !important;
+}
+
+.icon .instance-node-3 {
+  height: 24px !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 24px !important;
+}
+
+.icon .property-menu {
+  height: 28px !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 28px !important;
+}
+
+.icon.property-1-back {
+  height: 24px;
+  width: 24px;
+}
+
+.icon.property-1-flashlight {
+  height: 24px;
+  width: 24px;
+}
+
+.icon.property-1-reply {
+  height: 24px;
+  width: 24px;
+}
+
+.icon.property-1-menu-leaderboard {
+  height: 24px;
+  width: 24px;
+}
+
+.icon.property-1-menu-events {
+  height: 28px;
+  width: 28px;
+}
+
+.icon.property-1-pfp-1 {
+  background-image: url(../../static/img/property-1-pfp-1.svg);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 4px;
+  height: 20px;
+  width: 20px;
+}
+
+.icon.property-1-top-up {
+  height: 24px;
+  width: 24px;
+}
+
+.icon.property-1-clash-royale {
+  background-image: url(../../static/img/property-1-clash-royale.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 16px;
+  width: 16px;
+}
+
+.icon.property-1-plus-16 {
+  height: 24px;
+  width: 24px;
+}
+
+.icon.property-1-youtube {
+  height: 24px;
+  width: 24px;
+}
+
+.icon.property-1-the-last-of-us {
+  background-image: url(../../static/img/property-1-the-last-of-us.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 6px;
+  height: 24px;
+  width: 24px;
+}
+
+.icon.property-1-notification {
+  height: 24px;
+  width: 24px;
+}
+
+.icon.property-1-send {
+  height: 24px;
+  width: 24px;
+}
+
+.icon.property-1-instagram {
+  height: 24px;
+  width: 24px;
+}
+
+.icon.property-1-win {
+  height: 20px;
+  width: 20px;
+}
+
+.icon.property-1-comment {
+  height: 24px;
+  width: 24px;
+}
+
+.icon.property-1-clash-royale-big {
+  background-image: url(../../static/img/property-1-clash-royale-big.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 6px;
+  height: 24px;
+  width: 24px;
+}
+
+.icon.property-1-discord {
+  height: 24px;
+  width: 24px;
+}
+
+.icon.property-1-heart {
+  height: 24px;
+  width: 24px;
+}
+
+.icon.property-1-plus {
+  height: 24px;
+  width: 24px;
+}
+
+.icon.property-1-menu-profile {
+  height: 28px;
+  width: 28px;
+}
+
+.icon.property-1-back-2 {
+  height: 24px;
+  width: 24px;
+}
+
+.icon.property-1-top-up-2 {
+  height: 24px;
+  width: 24px;
+}
+
+.icon.property-1-x {
+  height: 24px;
+  width: 24px;
+}
+
+.icon.property-1-win-2 {
+  height: 24px;
+  width: 24px;
+}
+
+.icon.property-1-clash-royale-40 {
+  background-image: url(../../static/img/property-1-clash-royale-40.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 6px;
+  height: 40px;
+  width: 40px;
+}
+
+.icon.property-1-receive {
+  height: 24px;
+  width: 24px;
+}
+
+.icon.property-1-pfp-2 {
+  background-image: url(../../static/img/property-1-pfp-2.svg);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 4px;
+  height: 20px;
+  width: 20px;
+}
+
+.icon.property-1-medium {
+  height: 24px;
+  width: 24px;
+}
+
+.icon.property-1-star {
+  height: 24px;
+  width: 24px;
+}
+
+.icon.property-1-search {
+  height: 24px;
+  width: 24px;
+}
+
+.icon.property-1-fortnite {
+  background-image: url(../../static/img/property-1-fortnite.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 16px;
+  width: 16px;
+}
+
+.icon.property-1-back .icon-color {
+  height: 24px;
+  left: 3px;
+  top: 2px;
+  width: 23px;
+}
+
+.icon.property-1-flashlight .icon-color {
+  height: 24px;
+  left: 3px;
+  top: 0;
+  width: 19px;
+}
+
+.icon.property-1-reply .icon-color {
+  height: 24px;
+  left: 3px;
+  top: 2px;
+  width: 23px;
+}
+
+.icon.property-1-menu-leaderboard .icon-color {
+  height: 24px;
+  left: 3px;
+  top: 2px;
+  width: 23px;
+}
+
+.icon.property-1-menu-events .icon-color {
+  height: 23px;
+  left: 3px;
+  top: 2px;
+  width: 23px;
+}
+
+.icon.property-1-pfp-1 .icon-color {
+  height: 24px;
+  left: 3px;
+  top: 2px;
+  width: 23px;
+}
+
+.icon.property-1-top-up .icon-color {
+  height: 24px;
+  left: 3px;
+  top: 2px;
+  width: 23px;
+}
+
+.icon.property-1-clash-royale .icon-color {
+  height: 24px;
+  left: 3px;
+  top: 2px;
+  width: 23px;
+}
+
+.icon.property-1-plus-16 .icon-color {
+  height: 24px;
+  left: 3px;
+  top: 2px;
+  width: 23px;
+}
+
+.icon.property-1-youtube .icon-color {
+  height: 24px;
+  left: 3px;
+  top: 2px;
+  width: 23px;
+}
+
+.icon.property-1-the-last-of-us .icon-color {
+  height: 24px;
+  left: 3px;
+  top: 2px;
+  width: 23px;
+}
+
+.icon.property-1-notification .icon-color {
+  height: 24px;
+  left: 3px;
+  top: 2px;
+  width: 23px;
+}
+
+.icon.property-1-send .icon-color {
+  height: 24px;
+  left: 3px;
+  top: 2px;
+  width: 23px;
+}
+
+.icon.property-1-instagram .icon-color {
+  height: 24px;
+  left: 3px;
+  top: 2px;
+  width: 23px;
+}
+
+.icon.property-1-win .icon-color {
+  height: 15px;
+  left: 1px;
+  top: 2px;
+  width: 18px;
+}
+
+.icon.property-1-comment .icon-color {
+  height: 24px;
+  left: 3px;
+  top: 2px;
+  width: 23px;
+}
+
+.icon.property-1-clash-royale-big .icon-color {
+  height: 24px;
+  left: 3px;
+  top: 2px;
+  width: 23px;
+}
+
+.icon.property-1-discord .icon-color {
+  height: 24px;
+  left: 3px;
+  top: 2px;
+  width: 23px;
+}
+
+.icon.property-1-heart .icon-color {
+  height: 24px;
+  left: 3px;
+  top: 2px;
+  width: 23px;
+}
+
+.icon.property-1-plus .icon-color {
+  height: 24px;
+  left: 3px;
+  top: 2px;
+  width: 23px;
+}
+
+.icon.property-1-menu-profile .icon-color {
+  height: 24px;
+  left: 3px;
+  top: 2px;
+  width: 22px;
+}
+
+.icon.property-1-back-2 .icon-color {
+  height: 19px;
+  left: 6px;
+  top: 2px;
+  width: 10px;
+}
+
+.icon.property-1-top-up-2 .icon-color {
+  height: 18px;
+  left: 4px;
+  top: 3px;
+  width: 16px;
+}
+
+.icon.property-1-x .icon-color {
+  height: 24px;
+  left: 3px;
+  top: 2px;
+  width: 23px;
+}
+
+.icon.property-1-win-2 .icon-color {
+  height: 24px;
+  left: 3px;
+  top: 2px;
+  width: 23px;
+}
+
+.icon.property-1-clash-royale-40 .icon-color {
+  height: 24px;
+  left: 3px;
+  top: 2px;
+  width: 23px;
+}
+
+.icon.property-1-receive .icon-color {
+  height: 24px;
+  left: 3px;
+  top: 2px;
+  width: 23px;
+}
+
+.icon.property-1-pfp-2 .icon-color {
+  height: 24px;
+  left: 3px;
+  top: 2px;
+  width: 23px;
+}
+
+.icon.property-1-medium .icon-color {
+  height: 24px;
+  left: 3px;
+  top: 2px;
+  width: 23px;
+}
+
+.icon.property-1-star .icon-color {
+  height: 24px;
+  left: 3px;
+  top: 2px;
+  width: 23px;
+}
+
+.icon.property-1-search .icon-color {
+  height: 24px;
+  left: 3px;
+  top: 2px;
+  width: 23px;
+}
+
+.icon.property-1-fortnite .icon-color {
+  height: 24px;
+  left: 3px;
+  top: 2px;
+  width: 23px;
+}
